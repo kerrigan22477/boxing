@@ -9,7 +9,7 @@ var x = setInterval(function() {
     var distance = startTime - now;
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // time is in miliseconds so 20,000 = 20 seconds
+    // time is in milliseconds so 20,000 = 20 seconds
     if (distance < 0) {
         clearInterval(x);
         dynamicElement.textContent = "Start!";
