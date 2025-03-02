@@ -1,7 +1,7 @@
 
 // start time is 20 seconds from now
 var startTime = new Date().getTime() + 22000;
-const dynamicElement = document.createElement('p');
+const dynamicElement = document.createElement('h1');
 
 var x = setInterval(function() {
 
